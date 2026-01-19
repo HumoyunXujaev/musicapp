@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Musicapp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">?attr/humoPrimary</item>
+        <item name="android:windowBackground">?attr/humoBackground</item>
+        <item name="colorSurface">?attr/humoSurface</item>
+        <item name="colorOnSurface">?attr/humoTextPrimary</item>
+        <item name="android:textColorPrimary">?attr/humoTextPrimary</item>
+        <item name="android:textColorSecondary">?attr/humoTextSecondary</item>
+    </style>
+
+    <style name="Theme.MusicApp.Blue" parent="Base.Theme.Musicapp">
+        <item name="humoPrimary">@color/theme_blue_primary</item>
+        <item name="humoBackground">@color/theme_blue_bg</item>
+        <item name="humoSurface">@color/theme_blue_surface</item>
+        <item name="humoTextPrimary">@color/text_primary_dark</item>
+        <item name="humoTextSecondary">@color/text_secondary_dark</item>
+        <item name="humoDivider">@color/divider_dark</item>
+        <item name="humoRipple">@color/ripple_dark</item>
+        <item name="android:statusBarColor">@color/theme_blue_bg</item>
+        <item name="android:navigationBarColor">@color/theme_blue_surface</item>
+    </style>
+
+    <style name="Theme.MusicApp.Red" parent="Base.Theme.Musicapp">
+        <item name="humoPrimary">@color/theme_red_primary</item>
+        <item name="humoBackground">@color/theme_red_bg</item>
+        <item name="humoSurface">@color/theme_red_surface</item>
+        <item name="humoTextPrimary">@color/text_primary_dark</item>
+        <item name="humoTextSecondary">@color/text_secondary_dark</item>
+        <item name="humoDivider">@color/divider_dark</item>
+        <item name="humoRipple">@color/ripple_dark</item>
+        <item name="android:statusBarColor">@color/theme_red_bg</item>
+        <item name="android:navigationBarColor">@color/theme_red_surface</item>
+    </style>
+
+    <style name="Theme.MusicApp.Green" parent="Base.Theme.Musicapp">
+        <item name="humoPrimary">@color/theme_green_primary</item>
+        <item name="humoBackground">@color/theme_green_bg</item>
+        <item name="humoSurface">@color/theme_green_surface</item>
+        <item name="humoTextPrimary">@color/text_primary_dark</item>
+        <item name="humoTextSecondary">@color/text_secondary_dark</item>
+        <item name="humoDivider">@color/divider_dark</item>
+        <item name="humoRipple">@color/ripple_dark</item>
+        <item name="android:statusBarColor">@color/theme_green_bg</item>
+        <item name="android:navigationBarColor">@color/theme_green_surface</item>
+    </style>
+
+    <style name="Theme.MusicApp.Purple" parent="Base.Theme.Musicapp">
+        <item name="humoPrimary">@color/theme_purple_primary</item>
+        <item name="humoBackground">@color/theme_purple_bg</item>
+        <item name="humoSurface">@color/theme_purple_surface</item>
+        <item name="humoTextPrimary">@color/text_primary_dark</item>
+        <item name="humoTextSecondary">@color/text_secondary_dark</item>
+        <item name="humoDivider">@color/divider_dark</item>
+        <item name="humoRipple">@color/ripple_dark</item>
+        <item name="android:statusBarColor">@color/theme_purple_bg</item>
+        <item name="android:navigationBarColor">@color/theme_purple_surface</item>
+    </style>
+
+    <style name="Theme.MusicApp.Amoled" parent="Base.Theme.Musicapp">
+        <item name="humoPrimary">@color/theme_amoled_primary</item>
+        <item name="humoBackground">@color/theme_amoled_bg</item>
+        <item name="humoSurface">@color/theme_amoled_surface</item>
+        <item name="humoTextPrimary">@color/text_primary_dark</item>
+        <item name="humoTextSecondary">@color/text_secondary_dark</item>
+        <item name="humoDivider">@color/divider_dark</item>
+        <item name="humoRipple">@color/ripple_dark</item>
+        <item name="android:statusBarColor">@color/theme_amoled_bg</item>
+        <item name="android:navigationBarColor">@color/theme_amoled_surface</item>
+    </style>
+
+    <style name="Theme.Musicapp" parent="Theme.MusicApp.Blue" />
+
+    <style name="RoundedCornerImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="SharpCornerImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+</resources>

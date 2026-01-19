@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="humoPrimary" format="color" />
+    <attr name="humoBackground" format="color" />
+    <attr name="humoSurface" format="color" />
+    <attr name="humoTextPrimary" format="color" />
+    <attr name="humoTextSecondary" format="color" />
+    <attr name="humoDivider" format="color" />
+    <attr name="humoRipple" format="color" />
+</resources>

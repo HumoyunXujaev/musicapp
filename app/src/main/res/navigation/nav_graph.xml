@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.humoyun.musicapp.ui.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.humoyun.musicapp.ui.fragments.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="com.humoyun.musicapp.ui.fragments.LibraryFragment"
+        android:label="Library"
+        tools:layout="@layout/fragment_offline_container">
+        <action
+            android:id="@+id/action_library_to_detail"
+            destination="@id/nav_playlist_detail"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_playlist_detail"
+        android:name="com.humoyun.musicapp.ui.fragments.PlaylistDetailFragment"
+        android:label="Playlist"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_radios"
+        android:name="com.humoyun.musicapp.ui.fragments.RadiosFragment"
+        android:label="Radios"
+        tools:layout="@layout/fragment_list" />
+</navigation>
